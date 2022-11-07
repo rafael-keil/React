@@ -1,0 +1,27 @@
+.pokecenter {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightblue;
+}
+.pokecenter--info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  align-items: center;
+  width: 40vw;
+  padding: 150px 0 50px;
+}
+
+.pokecenter--title {
+  font-family: pokemon;
+  font-size: 80px;
+}
+
+.pokecenter--pokemons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0 50px;
+  gap: 30px;
+}

@@ -1,0 +1,43 @@
+.battle {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.battle--selection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 290px;
+  position: fixed;
+  bottom: 0;
+}
+
+.battle--atack,
+.battle--options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 10px;
+  border-color: gray;
+  border-style: solid;
+  height: 100%;
+  background-color: white;
+}
+
+.battle--atack {
+  flex-grow: 3;
+}
+
+.battle--options {
+  flex-grow: 2;
+}
+
+.battle--figth {
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: top;
+}

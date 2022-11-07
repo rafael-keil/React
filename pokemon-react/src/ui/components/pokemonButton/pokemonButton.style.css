@@ -1,0 +1,38 @@
+.pokemonButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.pokemonButton--button {
+  width: 150px;
+  height: 150px;
+  background-size: 100%;
+  transition: all 0.5s ease-in-out;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.pokemonButton--name {
+  font-family: pokemon;
+  font-size: 40px;
+  width: 170px;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background: none;
+  border: none;
+}
+
+.pokemonButton--name:disabled {
+  color: black;
+}
+
+.pokemonButton--button:hover {
+  transform: scale(1.2);
+}

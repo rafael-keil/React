@@ -1,0 +1,43 @@
+.post {
+  margin: 10px 0;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.post__header {
+  height: 60px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.post__image {
+  width: fit-content;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.post__data {
+  font-size: 14px;
+}
+
+.post__user-info {
+  flex-grow: 1;
+}
+
+.post__interactions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 60px;
+}
+
+.post__interactions > img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.post__buttons > button {
+  margin-right: 10px;
+}

@@ -1,0 +1,38 @@
+.pokemonSelection {
+  width: 100vh;
+  height: 100vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.pokemonSelection-all {
+  margin: 220px 15px 50px 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 10px;
+  overflow-y: scroll;
+  height: 620px;
+  z-index: 5;
+}
+
+.pokemonSelection--pokemon {
+  height: 200px;
+}
+
+.pokemonSelection--form {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  top: 90px;
+}
+
+.pokemonSelection--input {
+  font-family: pokemon;
+  font-size: 35px;
+  border-radius: 10px;
+  background: #efefef;
+}

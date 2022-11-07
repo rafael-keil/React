@@ -1,0 +1,14 @@
+.endBattle {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  height: 100vh;
+}
+
+.endBattle--title {
+  font-family: pokemon;
+  font-size: 90px;
+}

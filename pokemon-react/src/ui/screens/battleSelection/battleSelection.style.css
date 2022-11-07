@@ -1,0 +1,16 @@
+.battleSelection {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightblue;
+}
+.battleSelection--info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px 0;
+}
+.battleSelection--title {
+  font-family: pokemon;
+  font-size: 60px;
+}

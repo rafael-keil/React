@@ -1,0 +1,73 @@
+.listaCasa {
+  width: 35vw;
+  height: 300px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #612721;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 5px black;
+  z-index: 2;
+}
+
+.listaCasa--nome {
+  font-family: HarryP;
+  font-size: 35px;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  color: #eceade;
+  border-bottom-style: solid;
+  border-color: #612721;
+}
+
+.listaCasa--GRYFFINDOR {
+  background-color: #a52b34;
+}
+.listaCasa--SLYTRHERIN {
+  background-color: #398963;
+}
+.listaCasa--HUFFLEPUFF {
+  background-color: #fdb03d;
+}
+.listaCasa--RAVENCLAW {
+  background-color: #14578d;
+}
+
+.listaCasa--alunos {
+  overflow-y: scroll;
+  flex-grow: 2;
+  background-color: #eceade;
+}
+
+.listaCasa--aluno {
+  width: 100%;
+  padding: 0 15px 0 40px;
+  border-style: none;
+  border-bottom-style: solid;
+  border-color: #612721;
+  background-color: #eceade;
+  color: #612721;
+  display: flex;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.listaCasa--img {
+  display: none;
+  height: 20px;
+  opacity: 0.7;
+}
+
+.listaCasa--aluno:hover > .listaCasa--img {
+  display: inline;
+}
+
+.listaCasa--vazio {
+  border-style: none;
+  text-transform: none;
+}

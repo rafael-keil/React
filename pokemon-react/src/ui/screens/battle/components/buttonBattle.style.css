@@ -1,0 +1,20 @@
+.buttonBattle {
+  background: none;
+  border-style: none;
+  display: flex;
+  font-family: pokemon;
+  font-size: 50px;
+  cursor: pointer;
+  position: relative;
+}
+
+.buttonBattle--arrow {
+  display: none;
+  position: absolute;
+  left: -30px;
+  margin-right: 5px;
+}
+
+.buttonBattle:hover > .buttonBattle--arrow {
+  display: inline;
+}

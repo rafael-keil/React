@@ -1,0 +1,42 @@
+.pokemonBattle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pokemonBattle--aly {
+  flex-direction: row-reverse;
+}
+
+.pokemonBattle--text {
+  width: 300px;
+  height: 100px;
+  padding: 25px;
+  background-color: #f2fad2;
+  border-radius: 5px;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  font-family: pokemon;
+  font-size: 35px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.pokemonBattle--hp {
+  align-self: flex-end;
+}
+.pokemonBattle--name {
+  align-self: flex-start;
+}
+
+.pokemonBattle--img {
+  width: 300px;
+}
+
+.pokemonBattle--aly > img {
+  width: 450px;
+}

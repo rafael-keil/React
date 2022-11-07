@@ -1,0 +1,16 @@
+.button {
+  background-color: #3b5998;
+  width: 150px;
+  height: 40px;
+  border: 0;
+  margin-top: 20px;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.button:active,
+.button:hover {
+  background-color: #4d74c9;
+}

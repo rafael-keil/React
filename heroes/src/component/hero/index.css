@@ -1,0 +1,75 @@
+.Hero--box {
+  position: relative;
+  display: flex;
+  gap: 8px;
+  padding: 20px;
+  height: 130px;
+  width: 300px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.Hero--img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+
+.Hero--name {
+  color: white;
+  margin: 0;
+  font-size: 16px;
+}
+
+.Hero--desc {
+  color: white;
+  margin: 0;
+  font-size: 12px;
+}
+
+.Hero--background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  object-fit: cover;
+  object-position: top;
+}
+
+.Hero--bg-red {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+
+.Hero--bg-blue {
+  background-color: rgba(0, 0, 255, 0.8);
+}
+
+.Hero--bg-green {
+  background-color: rgba(0, 128, 0, 0.8);
+}
+
+.Hero--bg-light-blue {
+  background-color: rgba(173, 216, 230, 0.8);
+}
+
+.Hero--bg-black {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Hero--bg-orange {
+  background-color: rgba(255, 166, 0, 0.8);
+}
+
+.Hero--bg-purple {
+  background-color: rgba(128, 0, 128, 0.8);
+}
+
+.Hero--bg-gray {
+  background-color: rgba(128, 128, 128, 0.8);
+}
+
+.Hero--bg-yellow {
+  background-color: rgba(255, 255, 0, 0.8);
+}

@@ -1,0 +1,32 @@
+.selectedFigther {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selectedFigther--name {
+  font-family: mk2;
+  color: #f6f600;
+  font-size: 45px;
+}
+
+.selectedFigther--img {
+  height: 500px;
+  margin-top: 20px;
+}
+
+.selectedFigther--img--playerTwo {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.selectedFigther--remove {
+  font-family: mk2;
+  color: #f6f600;
+  font-size: 40px;
+  border: 0;
+  background-color: transparent;
+  text-decoration: underline;
+  margin-top: 20px;
+  cursor: pointer;
+}

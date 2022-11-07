@@ -1,0 +1,22 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 8vw 0;
+  background-color: lightblue;
+}
+
+.menu--title {
+  flex-grow: 1;
+  font-family: pokemon;
+  font-size: 150px;
+}
+
+.menu--items {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}

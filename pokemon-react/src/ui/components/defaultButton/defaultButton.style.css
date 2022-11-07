@@ -1,0 +1,14 @@
+.defaultButton {
+  font-family: pokemon;
+  font-size: 35px;
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.backButton {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}

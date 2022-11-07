@@ -1,0 +1,31 @@
+.figtherSelection--titulo {
+  font-family: mk2;
+  color: #f6f600;
+  font-size: 55px;
+  margin: 30px 0;
+}
+
+.figtherSelection {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  position: relative;
+}
+
+.figtherSelection--left {
+  position: absolute;
+  left: -300px;
+}
+
+.figtherSelection--figthers {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.figtherSelection--rigth {
+  position: absolute;
+  right: -300px;
+}

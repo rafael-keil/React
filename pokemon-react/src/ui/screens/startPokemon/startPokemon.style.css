@@ -1,0 +1,26 @@
+.startPokemon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  gap: 80px;
+  background-color: lightblue;
+}
+
+.startPokemon--title {
+  font-family: pokemon;
+  font-size: 80px;
+  margin-top: 100px;
+}
+
+.startPokemon--subtitle {
+  font-family: pokemon;
+  font-size: 60px;
+}
+
+.startPokemon--selections {
+  display: flex;
+  gap: 100px;
+  padding-bottom: 350px;
+}
